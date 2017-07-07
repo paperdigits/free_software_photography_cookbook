@@ -2,17 +2,15 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="reference_mdf_mlc_21b">
     <title>Processing Clipped Highlights</title>
-    <shortdesc>Clipped highlights may occur when the dynamic ranger is great or when the image is
-        over exposed. [image of a histogram]</shortdesc>
+    <shortdesc>Clipped highlights may occur when the dynamic ranger is greater than what your camera
+        can capture or if the image is over exposed. [image of a histogram]</shortdesc>
     <body>
-        <section id="section_jq4_rlc_21b">
-            <title>RawTherapee</title>
-            <p>enable highlight reconstruction using color propagation, then push up the highlights
-                slider.</p>
-            <p>enable tonemapping (optionally you can use CIECAM02 mode) and push down the [slider
-                name].</p>
-            <p>enable Shadows and Highlights and push [up/down] the [slider names].</p>
-        </section>
+        <p product="rawtherapee">enable highlight reconstruction using color propagation, then push
+            up the highlights slider.</p>
+        <p product="rawtherapee">enable tonemapping (optionally you can use CIECAM02 mode) and push
+            down the [slider name].</p>
+        <p product="rawtherapee">enable Shadows and Highlights and [increase/decrease] the [slider
+            names].</p>
     </body>
     <related-links>
         <link href="https://discuss.pixls.us/t/dealing-with-clipped-highlights-an-example/2976" scope="external" format="html" />
